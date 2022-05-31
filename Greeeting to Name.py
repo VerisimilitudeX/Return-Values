@@ -1,9 +1,3 @@
-"""
-LESSON: 6.2 - Return Values
-TECHNIQUE 1: Mapping Function
-PRACTICE 1
-"""
-
 #### ---- LIBRARIES ---- ####
 import random
 
@@ -30,17 +24,9 @@ name = input("What is your name? ")
 done = ""
 while done != "done":
 
-    # Get input from the user
     done = input("Type a number 1 - 5 or done: ")
     if done == "done":
         break
 
-    # Get a greeting based on the user's entered value
     greeting = get_greeting(int(done))
     print(name + ", " + greeting + "!")
-
-    # Print the greeting
-    
-
-
-# Turn in your Coding Exercise.
