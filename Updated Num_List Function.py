@@ -1,8 +1,3 @@
-"""
-LESSON: 6.2 - Return Values
-WARMUP 1
-"""
-
 #### --------------------------- ####
 #### ---- SUM LIST FUNCTION ---- ####
 #### --------------------------- ####
@@ -32,10 +27,7 @@ while val != "done":
     amount = sum_list(nums)
 
     print("Current Total: " + str(amount))
-  
 
-
-# Call sum_list function here
 amount = sum_list(nums)
 print()
 print("FINAL TOTAL: " + str(amount))
