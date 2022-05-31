@@ -1,8 +1,3 @@
-"""
-LESSON: 6.2 - Return Values
-WARMUP 1
-"""
-
 #### --------------------------- ####
 #### ---- SUM LIST FUNCTION ---- ####
 #### --------------------------- ####
@@ -26,12 +21,9 @@ while val != "done":
 
     nums.append(float(val))
     print("Current Total: ")
-
-    # Call sum_list function here
     sum_list(nums)
 
 print()
 print("FINAL TOTAL: ")
-# Call sum_list function here
-sum_list(nums)
 
+sum_list(nums)
