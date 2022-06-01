@@ -1,8 +1,3 @@
-"""
-LESSON: 6.2 - Return Values
-WARMUP 3
-"""
-
 import random
 
 #### ------------------------------- ####
